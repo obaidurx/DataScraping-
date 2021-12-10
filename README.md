@@ -1,8 +1,8 @@
-# Data Scraping from any Website
+# Scraping data from any website
 
-> Here we use our example website is : [setapp](https://setapp.com/apps)
+> This is just an example website : [setapp](https://setapp.com/apps)
 
-## Firstly we used Jquery
+## For beginning, we used Javascript.
 
 ```javascript
 const items = [];
@@ -27,7 +27,7 @@ document.querySelectorAll(".all-apps-item").forEach((item) => {
 console.log(items);
 ```
 
-## Secondly we used Jquery
+## Next, we used Jquery.
 
 ```javascript
 const s = document.createElement("script");
@@ -67,4 +67,4 @@ console.log(items);
 
 ---
 
-All Credit goes to **Hasin hayder vai**
+**Hasin hayder vai** deserved all the credit.
